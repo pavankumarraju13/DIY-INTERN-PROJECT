@@ -1,0 +1,416 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* #navbar 
+{
+    /* height: 1024px; 
+    background-color: #FFFFFF;
+}*/
+
+/* LOGO */
+.logo
+{
+	font-family: Podkova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 57px;
+	line-height: 63px;
+	color: #000000;
+}
+
+#navbarNav
+{
+	font-family: Podkova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 40px;
+	color: #000000;
+}
+
+#top-view
+{
+    max-width: 100%;
+    height: max-content;
+    padding: 5%;
+}
+
+.image
+{
+    max-width: 100%;
+    height: 247px;
+    background-color:  rgba(237, 244, 245, 0.72); 
+    border-radius: 20px;
+    /* background: url("C://Users//Ankita//Pictures//card back.PNG"); */
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.caption
+{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    max-width: 100%;
+    height: 144px;
+    background: rgba(237, 244, 245, 0.72);
+    border-radius: 21px;
+}
+
+.caption h5
+{
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 45px;
+    line-height: 45px;
+    color: #242020;
+    /* vertical-align: middle; */
+}
+
+.outer{
+	position: relative; 
+	max-width: 100%;
+	max-height: max-content;
+	background: #FFFFFF;
+    /* background-color: cornflowerblue; */
+    text-align: center;
+    margin-top: 5%;
+}
+
+#cat
+{
+	font-family: Padkova;
+	font-style: normal;
+	font-weight: normal;
+    padding-top: 5%;
+	font-size: 65px;
+	line-height: 45px;
+    color: #000;
+}
+
+#choose
+{                
+	font-family: Podkova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 110px;
+	color: #000000;
+}
+
+.inner
+{
+	max-width: 100%;
+	max-height: max-content;
+	background: rgba(237, 244, 245, 0.72); 
+    /* background-color: darksalmon; */
+	padding-bottom: 5%;
+	padding-top: 5%;
+	overflow: hidden;
+}
+
+.head_text_cat
+{
+    text-align: center;
+	padding: 2%;
+	font-family: Libre Baskerville;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 45px;
+	color: #000000;
+}
+
+.card
+{
+	width: 183px;
+    text-align: center;
+	border: none;
+    background-color: transparent;
+}
+
+.circular--portrait 
+{
+	position: relative;
+	width: 200px;
+	height: 200px; 
+	overflow: hidden;
+	border: 1px solid #E4E4E4;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circular--portrait:hover
+{
+	border: 3px solid rgba(7, 21, 102, 0.36);
+}
+  
+.circular--portrait img
+{
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+#head_text_about
+{
+    padding: 3%;
+	font-family: Podkova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: #000000;
+}
+
+#head_text_con
+{
+    padding: 3%;
+	font-family: Podkova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 53px;
+	color: #000000;
+}
+
+.info
+{
+	text-align: left;
+	line-height: 45px;
+	font-family: Libre Baskerville;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+
+.info h5
+{
+	font-size: 36px;
+	margin-top: 40px;
+}
+
+.info h6
+{
+	font-size: 48px;
+	margin-top: 30px;
+}
+
+.info p
+{
+	margin-top: 30px;
+	font-size: 24px;
+}
+
+.description
+{
+	font-family: Libre Baskerville;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: #000000;
+}
+
+.description p{
+	font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) 
+{
+	#navbarNav
+	{
+		font-size: 24px;
+		line-height: 20px;
+	}
+
+	.image
+	{
+		height: 200px;
+	}
+
+	.caption
+	{
+		height: 150px;
+	}
+
+	.caption h5
+	{
+		font-size: 40px;
+		line-height: 50px;
+	}		
+
+	#cat
+	{
+		margin-top: 20px;
+		font-size: 45px;
+		line-height: 50px;
+	}
+
+	#choose
+	{
+		margin-top: 25px;
+		margin-bottom: 25px;
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.head_text_cat
+	{
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.card
+	{
+		width: 180px;
+	}
+    	
+	.circular--portrait 
+	{
+		height: 160px;
+		width: 160px;
+	}
+
+	#head_text_about, #head_text_con
+	{
+		font-size: 45px;
+		line-height: 30px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.info
+	{
+		line-height: 15px;
+	}
+
+    .info h5
+	{
+		font-size: 36px;
+		margin-top: 20px;
+	}
+
+	.info h6
+	{
+		font-size: 48px;
+		margin-top: 10px;
+	}
+
+	.info p{
+		font-size: 24px;
+		margin-top: 10px;
+	}
+
+	.description
+	{
+		font-size: 24px;
+		margin-left: 30px;
+		margin-top: 10px;
+	}
+
+	.description p{
+		font-size: 15px;
+		line-height: 20px;
+	}
+}	
+
+@media screen and (max-width: 600px) 
+{
+	#navbarNav
+	{
+		font-size: 24px;
+		line-height: 20px;
+	}
+
+	.image
+	{
+		height: 150px;
+	}
+
+	.caption
+	{
+		height: 100px;
+	}
+
+	.caption h5
+	{
+		font-size: 24px;
+		line-height: 25px;
+	}		
+
+	#cat
+	{
+		font-size: 45px;
+		line-height: 50px;
+	}
+
+	#choose
+	{
+		margin-top: 25px;
+		margin-bottom: 25px;
+		font-size: 36px;
+		line-height: 40px;
+	}
+
+	.head_text_cat
+	{
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.card
+	{
+		width: 180px;
+	}
+    	
+	.circular--portrait 
+	{
+		height: 160px;
+		width: 160px;
+	}
+
+	#head_text_about, #head_text_con
+	{
+		font-size: 36px;
+		line-height: 30px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.info
+	{
+		line-height: 10px;
+	}
+
+    .info h5
+	{
+		font-size: 24px;
+		margin-top: 20px;
+	}
+
+	.info h6
+	{
+		font-size: 36px;
+		margin-top: 10px;
+	}
+
+	.info p{
+		font-size: 12px;
+		margin-top: 10px;
+	}
+
+	.description
+	{
+		font-size: 24px;
+		margin-left: 30px;
+		margin-top: 10px;
+	}
+
+	.description p{
+		font-size: 12px;
+		line-height: 15px;
+	}
+}	

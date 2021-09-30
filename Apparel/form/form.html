@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="form.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Feedback form</title>
+</head>
+<body>
+
+  <div class="container visible">
+    <div id="top">
+      <span  id="logo">LOGO</span> 
+      <span id="cancel">cancel</span> 
+    </div>
+    <form action="https://formsubmit.co/apparelintern6789@gmail.com" method="POST">
+      <input type="hidden" name="_next" value="https://yourdomainname.co/thank_you.html"> 
+      <div class="row"> 
+          <div class="col-75">
+          <label><p id="product-id"></p></label> 
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="name">Name :</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="name" placeholder="Your name">
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col-25">
+            <label for="email">E-mail :</label>
+          </div>
+          <div class="col-75">
+            <input type="email" id="email" placeholder="youremail@gmail.com" required>
+          </div>
+      </div>
+      
+      <div class="row">
+          <div class="col-25">
+            <label for="contact">Contact :</label>
+          </div>
+          <div class="col-75">
+            <input type="tel" id="contact" placeholder="Your contact number" required>
+          </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-25">
+          <label for="message">Message :</label>
+        </div>
+        <div class="col-75">
+          <textarea id="message" name="message" placeholder="Add your product discription.." style="height:200px"></textarea>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <div class="row">
+        <button type="submit" id="send">SEND</button>
+      </div>
+    </form>
+  </div>
+
+<script src="form.js" async type="text/javascript"></script>
+</body>
+</html>

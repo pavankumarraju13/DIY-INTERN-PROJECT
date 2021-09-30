@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  padding:0%;
+  margin: 0%;
+}
+
+#top
+{
+  display: flex;
+  grid-column: 1/-1;
+  justify-content: space-between;
+}
+
+#logo
+{
+	font-family: Podkova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 57px;
+	line-height: 63px;
+	color: #000000;
+}
+
+input[type=text], select, textarea, #email, #contact{
+  width: 90%;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+#email:hover, input[type=text]:hover, #message:hover, #contact:hover
+{
+    border: 2px solid rgba(7, 21, 102, 0.36);
+}
+
+#email:focus, input[type=text]:focus, #message:focus, #contact:focus
+{
+    outline-color: rgba(7, 21, 102, 0.36);
+}
+
+label 
+{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    margin-left: 20%;
+    font-family: Podkova;
+    font-weight: normal;
+    font-size: 25px;
+    color: #000000;
+}
+
+.container-form
+{     
+  position: fixed;
+  scroll-behavior: auto;
+  max-width: 80%;
+  max-height: fit-content;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  padding: 25px;
+  background-color: rgba(237, 244, 245, 0.72); 
+  border-radius: 28px; 
+}  
+
+.container-form.visible
+{
+  display:none;
+}
+
+#send
+{
+  background-color: rgba(4, 43, 87, 0.36);
+  color: white;
+  padding: 12px 20px;
+  border-color: rgba(7, 21, 102, 0.36);
+  border-radius: 4px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+}
+
+#send:hover {
+  background-color: white;
+  color: rgba(7, 21, 102, 0.36);
+  border: 2px solid rgba(7, 21, 102, 0.36);
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+
+  label{
+    font-size: 20px;
+    margin-left: 0.5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+   label
+   {
+     margin-left: 15px;
+   }
+}
