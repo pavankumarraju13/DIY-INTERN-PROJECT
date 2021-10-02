@@ -218,6 +218,10 @@
 	font-size: 18px;
 }
 
+.abc span{
+	margin-left: 5px;
+}
+
 @media screen and (max-width: 1024px) 
 {
 	#navbarNav
@@ -314,8 +318,16 @@
 	.description p{
 		font-size: 15px;
 		line-height: 20px;
+		float: left;
 	}
+
 }	
+
+.card-body img
+{
+	width: 30px;
+	height: 30px;
+}
 
 @media screen and (max-width: 600px) 
 {
@@ -412,5 +424,7 @@
 	.description p{
 		font-size: 12px;
 		line-height: 15px;
+		float: left;
+		/* margin-left: 10%; */
 	}
 }	
